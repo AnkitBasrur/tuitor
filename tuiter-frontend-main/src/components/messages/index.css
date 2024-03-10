@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.resize-none {
+  resize: none;
+}
+
+.avatar {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+}
+
+.round-icon {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+}
+
+.sender-message-color {
+  background-color: palegreen;
+}
+
+.pin-icon {
+  margin-left: auto;
+}
+
+.pin-gray {
+  color: gray;
+}
+
+.pin-green {
+  color: green;
+}

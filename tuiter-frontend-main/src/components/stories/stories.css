@@ -1,0 +1,45 @@
+.user-overlap {
+  top: -25px;
+  left: 7px;
+  position: relative;
+  color: rgb(255, 255, 255);
+}
+
+.story-item {
+  height: 125px;
+  width: -webkit-fill-available;
+}
+
+.close-btn {
+  color: #383232;
+}
+
+.profile-img {
+  height: 48px;
+  width: 48px;
+  border-radius: 25px;
+}
+
+.font-large {
+  font-size: larger;
+}
+
+.image-icon-color {
+  color: #0c63e4;
+}
+
+#fileInput{
+  display: none;
+}
+
+.my-story span {
+  max-width: 0;
+  visibility: hidden;
+  white-space: nowrap;
+  transition: max-width 0.5s;
+}
+
+.my-story:hover span {
+  max-width: 10rem;
+  visibility: visible;
+}
